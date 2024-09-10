@@ -10,4 +10,9 @@ public class FizzBuzzTest {
     void testReturnNumber() {
         assertEquals("1", fizzBuzz.fizzBuzz(1));
     }
+
+    @Test
+    void testFizzForThree(){
+        assertEquals("Fizz", fizzBuzz.fizzBuzz(3));
+    }
 }
