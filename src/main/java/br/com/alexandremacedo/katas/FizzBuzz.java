@@ -11,6 +11,8 @@ public class FizzBuzz {
                 return "Buzz";
             }
             return "Number negative";
+        }else if (number == 0){
+            return "Number zero";
         }
         return Integer.toString(number);
     }
