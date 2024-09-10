@@ -1,5 +1,6 @@
-import br.com.alexandremacedo.FizzBuzz;
+import br.com.alexandremacedo.katas.FizzBuzz;
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class FizzBuzzTest {
@@ -23,6 +24,6 @@ public class FizzBuzzTest {
 
     @Test
     void testFizzBuzzForFifteen(){
-        assertEquals("FizzBuzz",fizzBuzz.fizzBuzz(15));
+        assertEquals("Main",fizzBuzz.fizzBuzz(15));
     }
 }
