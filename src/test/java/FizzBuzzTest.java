@@ -31,4 +31,9 @@ public class FizzBuzzTest {
     void testNegativeNumber(){
         assertEquals("Number negative", fizzBuzz.fizzBuzz(-1));
     }
+
+    @Test
+    void testZero(){
+        assertEquals("Number zero", fizzBuzz.fizzBuzz(0));
+    }
 }
