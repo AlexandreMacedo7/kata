@@ -15,4 +15,9 @@ public class FizzBuzzTest {
     void testFizzForThree(){
         assertEquals("Fizz", fizzBuzz.fizzBuzz(3));
     }
+
+    @Test
+    void testBuzzForFive(){
+        assertEquals("Buzz", fizzBuzz.fizzBuzz(5));
+    }
 }
