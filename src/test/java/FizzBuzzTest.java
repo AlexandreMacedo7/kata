@@ -26,4 +26,9 @@ public class FizzBuzzTest {
     void testFizzBuzzForFifteen(){
         assertEquals("FizzBuzz",fizzBuzz.fizzBuzz(15));
     }
+
+    @Test
+    void testNegativeNumber(){
+        assertEquals("Number negative", fizzBuzz.fizzBuzz(-1));
+    }
 }
