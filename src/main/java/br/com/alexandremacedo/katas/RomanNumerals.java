@@ -7,6 +7,8 @@ public class RomanNumerals {
             return "I";
         }else if (number == 4){
             return "IV";
+        }else if(number == 9){
+            return "IX";
         }
         return Integer.toString(number);
     }
