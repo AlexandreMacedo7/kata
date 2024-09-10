@@ -1,7 +1,7 @@
 import br.com.alexandremacedo.katas.FizzBuzz;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FizzBuzzTest {
 
@@ -13,27 +13,27 @@ public class FizzBuzzTest {
     }
 
     @Test
-    void testFizzForThree(){
+    void testFizzForThree() {
         assertEquals("Fizz", fizzBuzz.fizzBuzz(3));
     }
 
     @Test
-    void testBuzzForFive(){
+    void testBuzzForFive() {
         assertEquals("Buzz", fizzBuzz.fizzBuzz(5));
     }
 
     @Test
-    void testFizzBuzzForFifteen(){
-        assertEquals("FizzBuzz",fizzBuzz.fizzBuzz(15));
+    void testFizzBuzzForFifteen() {
+        assertEquals("FizzBuzz", fizzBuzz.fizzBuzz(15));
     }
 
     @Test
-    void testNegativeNumber(){
+    void testNegativeNumber() {
         assertEquals("Number negative", fizzBuzz.fizzBuzz(-1));
     }
 
     @Test
-    void testZero(){
+    void testZero() {
         assertEquals("Number zero", fizzBuzz.fizzBuzz(0));
     }
 }
