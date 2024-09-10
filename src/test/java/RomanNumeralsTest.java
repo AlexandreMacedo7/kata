@@ -10,4 +10,9 @@ public class RomanNumeralsTest {
     void testConvertOneToRomainI(){
         assertEquals("I",romanNumerals.integerToRoman(1));
     }
+
+    @Test
+    void testConvertFourToRomainIV(){
+        assertEquals("IV", romanNumerals.integerToRoman(4));
+    }
 }
