@@ -20,4 +20,9 @@ public class FizzBuzzTest {
     void testBuzzForFive(){
         assertEquals("Buzz", fizzBuzz.fizzBuzz(5));
     }
+
+    @Test
+    void testFizzBuzzForFifteen(){
+        assertEquals("FizzBuzz",fizzBuzz.fizzBuzz(15));
+    }
 }
