@@ -24,6 +24,6 @@ public class FizzBuzzTest {
 
     @Test
     void testFizzBuzzForFifteen(){
-        assertEquals("Main",fizzBuzz.fizzBuzz(15));
+        assertEquals("FizzBuzz",fizzBuzz.fizzBuzz(15));
     }
 }
