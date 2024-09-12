@@ -2,7 +2,7 @@ import br.com.alexandremacedo.katas.RomanNumerals;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class RomanNumeralsTest {
+class RomanNumeralsTest {
 
     RomanNumerals romanNumerals = new RomanNumerals();
 
